@@ -36,12 +36,12 @@ product_Name = soup.find(name="span", id="productTitle", class_="a-size-large pr
 # Set up the SMTP server
 smtp_server = 'smtp.gmail.com'
 # smtp_port = 587
-smtp_username = 'elizatxbox@gmail.com'
-smtp_password = 'luyooaxezocqtktk'
+smtp_username = 'your_email@gmail.com'
+smtp_password = 'your_email_password'
 
 # Set up the email message
-sender_email = 'elizatxbox@gmail.com'
-recipient_email = 'elizat88@gmail.com'
+sender_email = 'your_email@gmail.com'
+recipient_email = 'recipient_email@example.com'
 subject = 'Price Alert !!!!'
 body = f'{product_Name}\nis now : €{price_as_float}'
 
